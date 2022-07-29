@@ -140,11 +140,11 @@ requests.post(
     td:title "lightbulb1";\n\
     td:hasSecurityConfiguration [ a wotsec:NoSecurityScheme\n\
     ];\n\
-    td:hasBase <http://192.168.15.8:5000/smartbuilding/workspaces/meetingroom/artifacts/lightbulb1/>;\n\
+    td:hasBase <http://192.168.15.8:5000/environments/smartbuilding/workspaces/meetingroom/artifacts/lightbulb1/>;\n\
     td:hasPropertyAffordance [ a td:PropertyAffordance, saref:OnOffState, js:BooleanSchema;\n\
         td:name "state";\n\
         td:hasForm [\n\
-            hctl:hasTarget <http://192.168.15.8:5000/smartbuilding/workspaces/meetingroom/artifacts/lightbulb1/state>;\n\
+            hctl:hasTarget <http://192.168.15.8:5000/environments/smartbuilding/workspaces/meetingroom/artifacts/lightbulb1/state>;\n\
             hctl:forContentType "application/json";\n\
             hctl:hasOperationType td:readProperty, td:writeProperty\n\
         ];\n\
@@ -152,7 +152,7 @@ requests.post(
     ], [ a td:PropertyAffordance, js:StringSchema;\n\
         td:name "Color";\n\
         td:hasForm [\n\
-            hctl:hasTarget <http://192.168.15.8:5000/smartbuilding/workspaces/meetingroom/artifacts/lightbulb1/color>;\n\
+            hctl:hasTarget <http://192.168.15.8:5000/environments/smartbuilding/workspaces/meetingroom/artifacts/lightbulb1/color>;\n\
             hctl:forContentType "application/json";\n\
             hctl:hasOperationType td:readProperty, td:writeProperty\n\
         ];\n\
@@ -162,8 +162,7 @@ requests.post(
         td:name "toggle";\n\
         td:hasForm [\n\
             htv:methodName "PUT";\n\
-            hctl:hasTarget <http://192.168.15.8:5000/smartbuilding/workspaces/meetingroom/artifacts/lightbulb1/toggle>;\n\
-            hctl:forContentType "application/json";\n\
+            hctl:hasTarget <http://192.168.15.8:5000/environments/smartbuilding/workspaces/meetingroom/artifacts/lightbulb1/toggle>;\n\
             hctl:hasOperationType td:invokeAction\n\
         ];\n\
         td:hasInputSchema [ a js:ObjectSchema, saref:OnOffState;\n\
@@ -176,7 +175,7 @@ requests.post(
         td:name "changeColor";\n\
         td:hasForm [\n\
             htv:methodName "PUT";\n\
-            hctl:hasTarget <http://192.168.15.8:5000/smartbuilding/workspaces/meetingroom/artifacts/lightbulb1/color>;\n\
+            hctl:hasTarget <http://192.168.15.8:5000/environments/smartbuilding/workspaces/meetingroom/artifacts/lightbulb1/color>;\n\
             hctl:forContentType "application/json";\n\
             hctl:hasOperationType td:invokeAction\n\
         ];\n\
@@ -210,11 +209,11 @@ requests.post(
     td:title "lightbulb2";\n\
     td:hasSecurityConfiguration [ a wotsec:NoSecurityScheme\n\
     ];\n\
-    td:hasBase <http://192.168.15.8:5000/smartbuilding/workspaces/meetingroom/artifacts/lightbulb2/>;\n\
+    td:hasBase <http://192.168.15.8:5000/environments/smartbuilding/workspaces/meetingroom/artifacts/lightbulb2/>;\n\
     td:hasPropertyAffordance [ a td:PropertyAffordance, saref:OnOffState, js:BooleanSchema;\n\
         td:name "state";\n\
         td:hasForm [\n\
-            hctl:hasTarget <http://192.168.15.8:5000/smartbuilding/workspaces/meetingroom/artifacts/lightbulb2/state>;\n\
+            hctl:hasTarget <http://192.168.15.8:5000/environments/smartbuilding/workspaces/meetingroom/artifacts/lightbulb2/state>;\n\
             hctl:forContentType "application/json";\n\
             hctl:hasOperationType td:readProperty, td:writeProperty\n\
         ];\n\
@@ -222,7 +221,7 @@ requests.post(
     ], [ a td:PropertyAffordance, js:StringSchema;\n\
         td:name "Color";\n\
         td:hasForm [\n\
-            hctl:hasTarget <http://192.168.15.8:5000/smartbuilding/workspaces/meetingroom/artifacts/lightbulb2/color>;\n\
+            hctl:hasTarget <http://192.168.15.8:5000/environments/smartbuilding/workspaces/meetingroom/artifacts/lightbulb2/color>;\n\
             hctl:forContentType "application/json";\n\
             hctl:hasOperationType td:readProperty, td:writeProperty\n\
         ];\n\
@@ -232,7 +231,7 @@ requests.post(
         td:name "toggle";\n\
         td:hasForm [\n\
             htv:methodName "PUT";\n\
-            hctl:hasTarget <http://192.168.15.8:5000/smartbuilding/workspaces/meetingroom/artifacts/lightbulb2/toggle>;\n\
+            hctl:hasTarget <http://192.168.15.8:5000/environments/smartbuilding/workspaces/meetingroom/artifacts/lightbulb2/toggle>;\n\
             hctl:forContentType "application/json";\n\
             hctl:hasOperationType td:invokeAction\n\
         ];\n\
@@ -246,7 +245,7 @@ requests.post(
         td:name "changeColor";\n\
         td:hasForm [\n\
             htv:methodName "PUT";\n\
-            hctl:hasTarget <http://192.168.15.8:5000/smartbuilding/workspaces/meetingroom/artifacts/lightbulb2/color>;\n\
+            hctl:hasTarget <http://192.168.15.8:5000/environments/smartbuilding/workspaces/meetingroom/artifacts/lightbulb2/color>;\n\
             hctl:forContentType "application/json";\n\
             hctl:hasOperationType td:invokeAction\n\
         ];\n\
@@ -280,11 +279,11 @@ requests.post(
     td:title "lightbulb3";\n\
     td:hasSecurityConfiguration [ a wotsec:NoSecurityScheme\n\
     ];\n\
-    td:hasBase <http://192.168.15.8:5000/smartbuilding/workspaces/meetingroom/artifacts/lightbulb3/>;\n\
+    td:hasBase <http://192.168.15.8:5000/environments/smartbuilding/workspaces/meetingroom/artifacts/lightbulb3/>;\n\
     td:hasPropertyAffordance [ a td:PropertyAffordance, saref:OnOffState, js:BooleanSchema;\n\
         td:name "state";\n\
         td:hasForm [\n\
-            hctl:hasTarget <http://192.168.15.8:5000/smartbuilding/workspaces/workingroom/artifacts/lightbulb3/state>;\n\
+            hctl:hasTarget <http://192.168.15.8:5000/environments/smartbuilding/workspaces/workingroom/artifacts/lightbulb3/state>;\n\
             hctl:forContentType "application/json";\n\
             hctl:hasOperationType td:readProperty, td:writeProperty\n\
         ];\n\
@@ -294,7 +293,7 @@ requests.post(
         td:name "toggle";\n\
         td:hasForm [\n\
             htv:methodName "PUT";\n\
-            hctl:hasTarget <http://192.168.15.8:5000/smartbuilding/workspaces/workingroom/artifacts/lightbulb3/toggle>;\n\
+            hctl:hasTarget <http://192.168.15.8:5000/environments/smartbuilding/workspaces/workingroom/artifacts/lightbulb3/toggle>;\n\
             hctl:forContentType "application/json";\n\
             hctl:hasOperationType td:invokeAction\n\
         ];\n\
@@ -328,11 +327,11 @@ requests.post(
     td:title "lightbulb4";\n\
     td:hasSecurityConfiguration [ a wotsec:NoSecurityScheme\n\
     ];\n\
-    td:hasBase <http://192.168.15.8:5000/smartbuilding/workspaces/meetingroom/artifacts/lightbulb4/>;\n\
+    td:hasBase <http://192.168.15.8:5000/environments/smartbuilding/workspaces/meetingroom/artifacts/lightbulb4/>;\n\
     td:hasPropertyAffordance [ a td:PropertyAffordance, saref:OnOffState, js:BooleanSchema;\n\
         td:name "state";\n\
         td:hasForm [\n\
-            hctl:hasTarget <http://192.168.15.8:5000/smartbuilding/workspaces/workingroom/artifacts/lightbulb4/state>;\n\
+            hctl:hasTarget <http://192.168.15.8:5000/environments/smartbuilding/workspaces/workingroom/artifacts/lightbulb4/state>;\n\
             hctl:forContentType "application/json";\n\
             hctl:hasOperationType td:readProperty, td:writeProperty\n\
         ];\n\
@@ -342,7 +341,7 @@ requests.post(
         td:name "toggle";\n\
         td:hasForm [\n\
             htv:methodName "PUT";\n\
-            hctl:hasTarget <http://192.168.15.8:5000/smartbuilding/workspaces/workingroom/artifacts/lightbulb4/toggle>;\n\
+            hctl:hasTarget <http://192.168.15.8:5000/environments/smartbuilding/workspaces/workingroom/artifacts/lightbulb4/toggle>;\n\
             hctl:forContentType "application/json";\n\
             hctl:hasOperationType td:invokeAction\n\
         ];\n\
@@ -376,11 +375,11 @@ requests.post(
     td:title "smarttv";\n\
     td:hasSecurityConfiguration [ a wotsec:NoSecurityScheme\n\
     ];\n\
-    td:hasBase <http://192.168.15.8:5000/smartbuilding/workspaces/meetingroom/artifacts/smarttv1/>;\n\
+    td:hasBase <http://192.168.15.8:5000/environments/smartbuilding/workspaces/meetingroom/artifacts/smarttv1/>;\n\
     td:hasPropertyAffordance [ a td:PropertyAffordance, saref:OnOffState, js:BooleanSchema;\n\
         td:name "state";\n\
         td:hasForm [\n\
-            hctl:hasTarget <http://192.168.15.8:5000/smartbuilding/workspaces/meetingroom/artifacts/smarttv1/state>;\n\
+            hctl:hasTarget <http://192.168.15.8:5000/environments/smartbuilding/workspaces/meetingroom/artifacts/smarttv1/state>;\n\
             hctl:forContentType "application/json";\n\
             hctl:hasOperationType td:readProperty, td:writeProperty\n\
         ];\n\
@@ -388,7 +387,7 @@ requests.post(
     ], [ a td:PropertyAffordance, js:IntegerSchema;\n\
         td:name "Channel";\n\
         td:hasForm [\n\
-            hctl:hasTarget <http://192.168.15.8:5000/smartbuilding/workspaces/meetingroom/artifacts/smarttv1/channel>;\n\
+            hctl:hasTarget <http://192.168.15.8:5000/environments/smartbuilding/workspaces/meetingroom/artifacts/smarttv1/channel>;\n\
             hctl:forContentType "application/json";\n\
             hctl:hasOperationType td:readProperty, td:writeProperty\n\
         ];\n\
@@ -398,7 +397,7 @@ requests.post(
         td:name "toggle";\n\
         td:hasForm [\n\
             htv:methodName "PUT";\n\
-            hctl:hasTarget <http://192.168.15.8:5000/smartbuilding/workspaces/meetingroom/artifacts/smarttv1/toggle>;\n\
+            hctl:hasTarget <http://192.168.15.8:5000/environments/smartbuilding/workspaces/meetingroom/artifacts/smarttv1/toggle>;\n\
             hctl:forContentType "application/json";\n\
             hctl:hasOperationType td:invokeAction\n\
         ];\n\
@@ -412,7 +411,7 @@ requests.post(
         td:name "changeChannel";\n\
         td:hasForm [\n\
             htv:methodName "PUT";\n\
-            hctl:hasTarget <http://192.168.15.8:5000/smartbuilding/workspaces/meetingroom/artifacts/smarttv1/channel>;\n\
+            hctl:hasTarget <http://192.168.15.8:5000/environments/smartbuilding/workspaces/meetingroom/artifacts/smarttv1/channel>;\n\
             hctl:forContentType "application/json";\n\
             hctl:hasOperationType td:invokeAction\n\
         ];\n\
@@ -446,11 +445,11 @@ requests.post(
     td:title "windowblinder";\n\
     td:hasSecurityConfiguration [ a wotsec:NoSecurityScheme\n\
     ];\n\
-    td:hasBase <http://192.168.15.8:5000/smartbuilding/workspaces/meetingroom/artifacts/windowblinder1/>;\n\
+    td:hasBase <http://192.168.15.8:5000/environments/smartbuilding/workspaces/meetingroom/artifacts/windowblinder1/>;\n\
     td:hasPropertyAffordance [ a td:PropertyAffordance, js:StringSchema;\n\
         td:name "state";\n\
         td:hasForm [\n\
-            hctl:hasTarget <http://192.168.15.8:5000/smartbuilding/workspaces/meetingroom/artifacts/windowblinder1/state>;\n\
+            hctl:hasTarget <http://192.168.15.8:5000/environments/smartbuilding/workspaces/meetingroom/artifacts/windowblinder1/state>;\n\
             hctl:forContentType "application/json";\n\
             hctl:hasOperationType td:readProperty, td:writeProperty\n\
         ];\n\
@@ -460,7 +459,7 @@ requests.post(
         td:name "changeState";\n\
         td:hasForm [\n\
             htv:methodName "PUT";\n\
-            hctl:hasTarget <http://192.168.15.8:5000/smartbuilding/workspaces/meetingroom/artifacts/windowblinder1/state>;\n\
+            hctl:hasTarget <http://192.168.15.8:5000/environments/smartbuilding/workspaces/meetingroom/artifacts/windowblinder1/state>;\n\
             hctl:forContentType "application/json";\n\
             hctl:hasOperationType td:invokeAction\n\
         ];\n\
