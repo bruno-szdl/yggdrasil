@@ -273,6 +273,7 @@ requests.post(
     @prefix js: <https://www.w3.org/2019/wot/json-schema#> .\n\
     @prefix saref: <https://w3id.org/saref#> .\n\
     @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\
+    @prefix companya : <https://raw.githubusercontent.com/bruno-szdl/example_ont_companies/main/companyA.owl#> .\n\
     \n\
     <>\n\
     a td:Thing, saref:LightSwitch;\n\
@@ -289,7 +290,7 @@ requests.post(
         ];\n\
         td:isObservable false\n\
     ];\n\
-    td:hasActionAffordance [ a td:ActionAffordance, saref:ToggleCommand;\n\
+    td:hasActionAffordance [ a td:ActionAffordance, companya:toggleLight;\n\
         td:name "toggle";\n\
         td:hasForm [\n\
             htv:methodName "PUT";\n\
@@ -321,6 +322,7 @@ requests.post(
     @prefix js: <https://www.w3.org/2019/wot/json-schema#> .\n\
     @prefix saref: <https://w3id.org/saref#> .\n\
     @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\
+    @prefix companyb : <https://raw.githubusercontent.com/bruno-szdl/example_ont_companies/main/companyB.owl#> .\n\
     \n\
     <>\n\
     a td:Thing, saref:LightSwitch;\n\
@@ -337,7 +339,7 @@ requests.post(
         ];\n\
         td:isObservable false\n\
     ];\n\
-    td:hasActionAffordance [ a td:ActionAffordance, saref:ToggleCommand;\n\
+    td:hasActionAffordance [ a td:ActionAffordance, companyb:lightToggle;\n\
         td:name "toggle";\n\
         td:hasForm [\n\
             htv:methodName "PUT";\n\
